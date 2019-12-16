@@ -1,0 +1,131 @@
+.sf-b2c-mall-header {
+    height: 196px;
+    background: khaki;
+}
+
+.notice {
+    height: 24px;
+    line-height: 24px;
+}
+
+.ph {
+    height: 172px;
+    background: lightblue;
+}
+
+.header1 {
+    height: 30px;
+    line-height: 30px;
+    background: #3E3A39;
+}
+
+.pm {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fr ul li {
+    float: left;
+}
+
+.fl a,
+.fr a {
+    margin-right: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.header1-qrcode {
+    position: relative;
+}
+
+.header1-qrcode-box {
+    position: absolute;
+    left: -80px;
+    top: 10px;
+    z-index: 998;
+    background: url(//img0.fengqu.com/cmsres/20151218/05e07220-1923-411d-8f61-943a9e221bd6.png) no-repeat;
+    width: 244px;
+    height: 265px;
+    display: block;
+}
+
+.header {
+    height: 88px;
+    background: #fff;
+}
+
+.header-icon01 {
+    width: 237px;
+    height: 95px;
+    margin-top: -30px;
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(https://img0.fengqucdn.com/cmsres/20170329/030eede1-1185-4a2d-a2b6-c9c5a43316df.svg);
+    background-repeat: no-repeat;
+    background-size: 18.8em 10.1em;
+}
+
+.header-c1 {
+    margin-top: 23px;
+}
+
+.header-c2 {
+    margin-top: 20px;
+}
+
+.header-search-input {
+    width: 300px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    border: 2px solid #E73736;
+    color: #333;
+    padding: 0 17px;
+}
+
+.header-search-btn {
+    width: 76px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #E73736;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -2px;
+}
+
+.header-search-suggestKeywords {
+    width: 412px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    padding-top: 9px;
+}
+
+.nav {
+    height: 54px;
+    background: rosybrown;
+    padding-top: 18px;
+}
+
+.nav-inner {
+    height: 36px;
+    background: olive;
+}
+
+.clearfix {
+    height: 36px;
+}
+
+
+/*# sourceMappingURL=index.css.map */

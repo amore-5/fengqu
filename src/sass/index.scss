@@ -1,0 +1,97 @@
+@charset "utf-8";
+.sf-b2c-mall-header {
+    height: 196px;
+    background: khaki;
+}
+
+// 通知
+.notice {
+    $noticeheight: 24px;
+    height: $noticeheight;
+    line-height: $noticeheight;
+    // display: none;
+}
+
+.ph {
+    height: 172px;
+    background: lightblue;
+}
+
+//  头部导航条 
+.header1 {
+    $header1height: 30px;
+    height: $header1height;
+    line-height: $header1height;
+    background: #3E3A39;
+}
+
+.pm {
+    width: 1180px;
+    margin: 0 auto;
+    // background: bisque;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fr ul li {
+    float: left;
+}
+
+$fl-margin:20px;
+$fl-size:12px;
+$fl-color:#ccc;
+.fl,
+.fr {
+    a {
+        margin-right: $fl-margin;
+        font-size: $fl-size;
+        color: $fl-color;
+    }
+}
+
+.header1-qrcode {
+    position: relative;
+}
+
+.header1-qrcode-box {
+    position: absolute;
+    left: -80px;
+    top: 10px;
+    z-index: 998;
+    background: url(//img0.fengqu.com/cmsres/20151218/05e07220-1923-411d-8f61-943a9e221bd6.png) no-repeat;
+    width: 244px;
+    height: 265px;
+    display: block;
+}
+
+.header {
+    $headerheight: 88px;
+    height: $headerheight;
+    background: #fff;
+}
+
+.header-c1 {
+    margin-top: 23px;
+}
+
+.nav {
+    height: 54px;
+    background: rosybrown;
+    padding-top: 18px;
+}
+
+$nav-innerheight: 36px;
+.nav-inner {
+    height: $nav-innerheight;
+    background: olive;
+}
+
+.clearfix {
+    height: $nav-innerheight;
+}
